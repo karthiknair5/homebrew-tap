@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Corgi</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Wed, 25 Nov 2026 12:10:19 -0500</pubDate>
+            <link>https://github.com/karthiknair5/homebrew-tap</link>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>Corgi 0.1.0</h2>
+<p>The first release. Corgi tiles your windows side by side, snaps them to halves, thirds and quarters, and keeps them on ten virtual workspaces.</p>
+<ul>
+  <li><b>Tiling</b>: new windows take a share of the screen. Focus and move tiles with the keyboard, flip a split, float a window, or show one window at a time with the full-screen layout.</li>
+  <li><b>Snapping</b>: keyboard shortcuts for halves, thirds, quarters and your own custom sizes, or drag a window to an edge or corner. Prefer to arrange things yourself? Switch automatic tiling off and just snap.</li>
+  <li><b>Workspaces</b>: switch with ⌥1–⌥0 and send windows with ⌥⇧. Name them, send apps to the same one every time, and move a whole workspace to another display.</li>
+  <li><b>Mouse</b>: optional focus follows mouse, and mouse follows focus.</li>
+  <li><b>Scripting</b>: run any command from a <code>corgi://</code> link.</li>
+  <li><b>Menu bar</b>: the corgi shows which workspace you're on; its menu lists each workspace with its apps.</li>
+</ul>
+<p>Press ⌃⌥/ any time to see every shortcut.</p>
+<p><b>Privacy</b>: Corgi needs Accessibility access to move and resize windows. It collects nothing, and only goes online to check for updates.</p>
+]]></description>
+            <enclosure url="https://github.com/karthiknair5/homebrew-tap/releases/download/v0.1.0/Corgi-0.1.0.dmg" length="3810991" type="application/octet-stream" sparkle:edSignature="KCrQglpMlel34UV/LOP/DMEew4NbrO/I+tzUUmaYp/OleAudDS1B6IEzS0gE0XNQI24GUSVxdAy0ycuKIzAkDw=="/>
+        </item>
+    </channel>
+</rss>
