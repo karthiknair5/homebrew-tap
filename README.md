@@ -3,7 +3,9 @@
 Corgi is a macOS window manager that tiles, snaps and keeps windows on workspaces.
 
 ```sh
-brew install --cask karthiknair5/tap/corgi
+brew tap karthiknair5/tap
+brew trust karthiknair5/tap      # Homebrew asks you to trust a tap before installing from it
+brew install --cask corgi
 ```
 
 Update with `brew upgrade --cask corgi`.
