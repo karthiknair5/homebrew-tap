@@ -1,6 +1,6 @@
 cask "corgi" do
   version "0.1.0"
-  sha256 "c1db1acd965365e8053a94e1c4c8179efe0e19787021ded5195cf4a1fa9b6da2"
+  sha256 "f12fe123fd388158a08926b7d8390fc77741191461116d441de74c88ecf227aa"
 
   url "https://github.com/karthiknair5/homebrew-tap/releases/download/v#{version}/Corgi-#{version}.dmg"
   name "Corgi"
@@ -11,11 +11,12 @@ cask "corgi" do
 
   app "Corgi.app"
 
-  uninstall quit: "local.corgi"
+  uninstall quit: "com.karthiksnair.corgi"
 
   zap trash: [
     "~/.config/corgi",
     "~/Library/Application Support/Corgi",
+    "~/Library/Preferences/com.karthiksnair.corgi.plist",
     "~/Library/Preferences/local.corgi.plist",
   ]
 end
