@@ -8,7 +8,11 @@ brew trust karthiknair5/tap      # Homebrew asks you to trust a tap before insta
 brew install --cask corgi
 ```
 
-Update with `brew upgrade --cask corgi`.
+Corgi updates itself: it checks for new versions in the background and asks before installing.
+`brew upgrade --cask corgi` works too.
+
+**Privacy:** Corgi needs Accessibility access to move and resize windows. It collects nothing,
+and only goes online to check for updates.
 
 **Heads-up:** this build isn't notarized yet. If macOS says Corgi can't be opened, open
 System Settings → Privacy & Security and click **Open Anyway** next to Corgi.
